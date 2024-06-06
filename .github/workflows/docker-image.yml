@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kevinsee/tailscale-gitops:latest  kevinsee/tailscale-gitops:$(date +%s)
+          tags: kevinsee/tailscale-gitops:latest , kevinsee/tailscale-gitops:$(date +%s)
